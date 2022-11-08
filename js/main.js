@@ -37,6 +37,9 @@ genera.addEventListener("click",
             prezzoFinale = prezzoNormale
         }
         console.log(prezzoFinale);
+
+        let prezzo = document.getElementById("costo-biglietto");
+        prezzo.innerHTML = `${prezzoFinale.toFixed(2)}` ;
     }
 
 
