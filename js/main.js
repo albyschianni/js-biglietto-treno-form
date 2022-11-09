@@ -40,6 +40,8 @@ genera.addEventListener("click",
 
         let prezzo = document.getElementById("costo-biglietto");
         prezzo.innerHTML = `${prezzoFinale.toFixed(2)}` ;
+        let dati = document.getElementById("nome-passeggero");
+        dati.innerHTML = `${nome}`;
     }
 
 
